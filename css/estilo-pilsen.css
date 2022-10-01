@@ -1,0 +1,20 @@
+
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body{
+    background-color: #000000; /* formata o fundo */
+    color: #f8f8f2;
+    font-family: "Kanit display","Arial"; /*carrega a fonte Indie Flower*/
+}
+h1{font-family: Bungee Spice;}
+
+.centro {
+	text-align: center;
+}
+
+.preco {
+    text-align: right;
+}
+

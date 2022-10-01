@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerveja Pilsen</title>
+
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+
+    <!--CSS-->
+    <link href="\css\estilo-pilsen.css" rel="stylesheet" />
+
+    <link rel="icon" type="image/jpg" href="\images\logo.jpg">
+
+</head>
+
+<body>
+    <table <tr rowspan="3">
+        <td>
+            <img src="images/logo.jpg" title="Logo" alt="Logo Cervejaria" class="logo" width="100px" height="100px" />
+        <td>
+            <h1>Cervejas Pilsen</h1>
+        </td>
+        </td>
+
+        </tr>
+
+    </table><br>
+
+    <legend>Faça seu pedido</legend>
+    <table>
+        <tr>
+            <td>
+                <label>E-mail</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" maxlength="100"
+                    tittle="Informe seu email com 100 caracteres" size="40" placeholder="Ex: nome@teste.com.br"
+                    required /><br>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Senha:</label></td>
+            <td><input type="password" id="senha" name="senha" title="Informe sua senha com 6 caracteres" required />
+            </td>
+
+        </tr>
+
+        <tr>
+            <td> </td>
+            <td><input type="checkbox" id="lembrar" name="lembrar" checked> <label>Lembrar usuário?</label></td>
+        </tr>
+    </table>
+    </table>
+    <br>
+
+    <table border="1">
+        <tr>
+            <td class="centro">Tipo</td>
+            <td class="preco">Preço (R$)</td>
+            <td class="centro">Quantidade</td>
+        </tr>
+        <tr>
+            <td>Lata 269ml</td>
+            <td class="preco">3,20</td>
+            <td class="centro">
+                <input type="qte1" id="qte1" name="Lata 269ml" maxlength="3" size="3" />
+            </td>
+        </tr>
+        <tr>
+            <td>Lata 350ml</td>
+            <td class="preco">3,90</td>
+            <td class="centro">
+                <input type="qte2" id="qte2" name="Lata 350ml" maxlength="3" size="3" />
+            </td>
+        </tr>
+        <tr>
+            <td>Lata 520ml</td>
+            <td class="preco">5,20</td>
+            <td class="centro">
+                <input type="qte3" id="qte3" name="Lata 520ml" maxlength="3" size="3" />
+            </td>
+        </tr>
+        <tr>
+            <td>Long Neck 330ml</td>
+            <td class="preco">3,30</td>
+            <td class="centro">
+                <input type="qte4" id="qte4" name="Long Neck 330ml" maxlength="3" size="3" />
+            </td>
+        </tr>
+        <tr>
+            <td>Garrafa descatável 600ml</td>
+            <td class="preco">7,20</td>
+            <td class="centro">
+                <input type="qte5" id="qte5" name="Garrafa descatável 600ml" maxlength="3" size="3" />
+            </td>
+        </tr>
+        <tr>
+            <td>Garrafa retornável 600ml</td>
+            <td class="preco">6,20</td>
+            <td class="centro">
+                <input type="qte6" id="qte6" name="Garrafa retornável 600ml" maxlength="3" size="3" />
+            </td>
+        </tr>
+
+
+    </table>
+    
+    <br>
+    <fieldset>
+        <legend>Selecione a forma de entrega:</legend>
+    
+        <div>
+          <input type="radio" id="entrega" name="delivery" value="entrega"
+                 checked>
+          <label for="entrega">Entrega</label>
+        </div>
+    
+        <div>
+          <input type="radio" id="retira" name="delivery" value="retira">
+          <label for="retira">Retira</label>
+        </div>
+    
+        <div>
+          <input type="radio" id="correio" name="delivery" value="correio">
+          <label for="correio">Correio</label>
+        </div>
+    </fieldset>
+    
+
+    </br>
+    <input type="submit" value="Enviar 😁" />
+    <input type="reset" value="Limpar 😒" />
+
+
+
+    </br>
+    <a href="\index.html">Volta</a>
+
+</body>
+
+</html>
